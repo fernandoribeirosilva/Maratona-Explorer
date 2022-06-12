@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #000;
+   color: #fff;
+   text-align: center;
+   font-family: sans-serif;
+}
+
+h1 {
+   margin-top: 40px;
+   margin-bottom: 10px;
+   opacity: 0.9;
+}
+
+p {
+   margin-bottom: 40px;
+   opacity: 0.7;
+}
+
+input,
+button {
+   display: block;
+   width: 100%;
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 4px;
+}
+
+input {
+   border: 2px solid #8a2be2;
+   transition: outline .1s ease-in-out, outline-offset .1s ease-in-out;
+}
+
+input:focus {
+   border: 2px solid #000;
+   outline: 2px solid #8a2be2;
+   outline-offset: 1px;
+}
+
+button {
+   border: none;
+   background-color: #8a2be2;
+   color: #fff;
+   transition: filter .2s ease-in-out;
+}
+
+/* pseudo class: hover */
+button:hover {
+   filter: brightness(1.2);
+   cursor: pointer;
+}
